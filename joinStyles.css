@@ -1,0 +1,17 @@
+.join-us-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.rounded-box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 20px;
+}
