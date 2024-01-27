@@ -16,9 +16,6 @@
     margin-top: 20px;
 }
 
-#joinus:hover {
-    background-color: #333;
-}
 
 .rounded-box:hover {
     background-color: #2E8B57; /* 호버링 시 배경 색상 변경 */

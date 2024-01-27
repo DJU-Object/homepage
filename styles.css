@@ -44,7 +44,9 @@ nav ul #joinus {
     padding: 10px 20px;
     border-radius: 15px;
 }
-
+#joinus:hover {
+    background-color: #333;
+}
 section {
     width: 80%;
     margin: 20px auto;
