@@ -6,10 +6,11 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh; /* 최소 높이 설정 */
+    
 }
 
 nav {
-    background-color: #333;
+    background-color: #0D0D0D;
     color: white;
     text-align: center;
     width: calc(100% - 40px);
@@ -39,14 +40,14 @@ nav a {
 }
 
 nav ul #joinus {
-    background-color: #4CAF50;
+    background-color: #0583F2;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
 }
 
 #joinus:hover {
-    background-color: #333;
+    background-color: #4A51D9;
 }
 
 section {
@@ -85,7 +86,7 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #0D0D0D;
     color: white;
     text-align: center;
     padding: 1em;
