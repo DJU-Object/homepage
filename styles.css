@@ -44,9 +44,11 @@ nav ul #joinus {
     padding: 10px 20px;
     border-radius: 15px;
 }
+
 #joinus:hover {
     background-color: #333;
 }
+
 section {
     width: 80%;
     margin: 20px auto;
@@ -66,10 +68,14 @@ section {
     max-width: calc(50% - 20px);
     box-sizing: border-box;
     text-align: center;
+    border: 1px solid #ddd; /* 테두리 추가 */
+    padding: 20px;
 }
 
 .organizer-card img {
     max-width: 100%;
+    border-radius: 50%; /* 이미지를 원형으로 표시 */
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -77,21 +83,6 @@ h2 {
     text-align: left;
     margin-bottom: 20px; /* h2 태그와 운영자 카드 간의 여백을 설정 */
 }
-.organizer-card {
-    width: 250px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-}
-
-.organizer-card img {
-    max-width: 100%;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-
 
 footer {
     background-color: #333;
