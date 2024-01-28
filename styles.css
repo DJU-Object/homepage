@@ -124,6 +124,7 @@ nav ul #joinus {
 @media (max-width: 768px) {
     section {
         width: 100%;
+        margin: 10px auto; /* 섹션 간 간격 조절 */
     }
 
     #organizers {
@@ -135,6 +136,7 @@ nav ul #joinus {
         max-width: 100%;
     }
 }
+
 
 footer {
     background-color: #0D0D0D;
