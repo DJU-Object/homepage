@@ -124,7 +124,7 @@ nav ul #joinus {
 @media (max-width: 768px) {
     section {
         width: 100%;
-        margin: 10px auto; /* 섹션 간 간격 조절 */
+        margin: 10px; /* 좌우 마진을 10px로 조절 */
     }
 
     #organizers {
@@ -136,6 +136,7 @@ nav ul #joinus {
         max-width: 100%;
     }
 }
+
 
 
 footer {
