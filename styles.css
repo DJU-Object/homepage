@@ -123,8 +123,8 @@ nav ul #joinus {
 /* 작은 화면(예: 태블릿 또는 모바일 기기)에 대한 미디어 쿼리 추가 */
 @media (max-width: 768px) {
     section {
-        width: 100%;
-        margin: 10px; /* 좌우 마진을 10px로 조절 */
+        width: auto;
+        margin: 20px; /* 좌우 마진을 10px로 조절 */
     }
 
     #organizers {
