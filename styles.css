@@ -67,11 +67,11 @@ nav ul #joinus {
     background-color: #4A51D9;
 }
 
-
 #organizers {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start; /* 운영진 카드를 맨 위에 정렬 */
+    justify-content: space-evenly; /* 가로로 균등한 간격으로 정렬 */
 }
 
 .organizer-card {
@@ -90,10 +90,15 @@ nav ul #joinus {
     margin-bottom: 10px;
 }
 
-/* 작은 화면(예: 모바일 기기)에 대한 미디어 쿼리 추가 */
+/* 작은 화면(예: 태블릿 또는 모바일 기기)에 대한 미디어 쿼리 추가 */
 @media (max-width: 768px) {
+    #organizers {
+        flex-direction: column; /* 세로로 배치 */
+        align-items: center; /* 가운데 정렬 */
+    }
+
     .organizer-card {
-        max-width: 100%; /* 작은 화면에서는 가로 폭을 100%로 설정하여 세로로 배치 */
+        max-width: 100%; /* 가로 폭 100%로 설정하여 세로로 배치 */
     }
 }
 
