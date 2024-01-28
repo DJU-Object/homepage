@@ -47,16 +47,16 @@ section {
     background-color: #fff; /* 하얀색 배경으로 변경 */
 }
 
-/* h2 {
+#head {
     width: 100%;
     text-align: left;
     margin-bottom: 20px;
-    color: #4A51D9;
+    /* color: #4A51D9; */
 }
 
-p {
+#text {
     color: #666;
-} */
+}
 
 nav ul {
     list-style-type: none;
