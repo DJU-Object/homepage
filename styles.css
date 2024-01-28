@@ -67,6 +67,7 @@ nav ul #joinus {
     background-color: #4A51D9;
 }
 
+
 #organizers {
     display: flex;
     flex-wrap: wrap;
@@ -88,6 +89,14 @@ nav ul #joinus {
     border-radius: 50%; /* 이미지를 원형으로 표시 */
     margin-bottom: 10px;
 }
+
+/* 작은 화면(예: 모바일 기기)에 대한 미디어 쿼리 추가 */
+@media (max-width: 768px) {
+    .organizer-card {
+        max-width: 100%; /* 작은 화면에서는 가로 폭을 100%로 설정하여 세로로 배치 */
+    }
+}
+
 
 h2 {
     width: 100%;
