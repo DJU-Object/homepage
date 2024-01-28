@@ -4,7 +4,7 @@
 }
 
 .rounded-box {
-    background-color: #4CAF50;
+    background-color: #0583F2;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
@@ -18,7 +18,7 @@
 
 
 .rounded-box:hover {
-    background-color: #2E8B57; /* 호버링 시 배경 색상 변경 */
+    background-color: #4A51D9; /* 호버링 시 배경 색상 변경 */
     color: #fff; /* 호버링 시 텍스트 색상 변경 */
     transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
     cursor: pointer;
