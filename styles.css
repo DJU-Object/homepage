@@ -7,7 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 nav {
@@ -23,6 +23,11 @@ nav {
     top: 0;
     z-index: 1000;
     transition: transform 0.3s, opacity 0.3s ease-in-out;
+}
+
+nav img {
+    max-width: 80px; /* 원하는 최대 너비 값으로 조절 */
+    height: auto; /* 비율에 맞게 자동 조절 */
 }
 
 nav.hidden {
