@@ -10,7 +10,6 @@ body {
     top: 80px;
     background-color: #0D0D0D;
 }
-
 nav {
     background-color: #0D0D0D;
     color: white;
@@ -25,17 +24,14 @@ nav {
     z-index: 1000;
     transition: transform 0.3s, opacity 0.3s ease-in-out;
 }
-
 nav img {
     max-width: 80px;
     height: auto;
 }
-
 nav.hidden {
     transform: translateY(-100%);
     opacity: 0;
 }
-
 section {
     width: 80%;
     margin: 20px auto;
@@ -56,18 +52,14 @@ section.in-view {
     opacity: 1;
     transform: translateY(0);
 }
-
 #head {
     width: 100%;
     text-align: left;
     margin-bottom: 20px;
     /* color: #4A51D9; */
-}
-
-#text {
+}ext {
     color: #666;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -76,31 +68,26 @@ nav ul {
     gap: 20px;
     align-items: center;
 }
-
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-
 nav ul #joinus {
     background-color: #0583F2;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
 }
-
 #joinus:hover {
     background-color: #4A51D9;
 }
-
 #organizers {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
 }
-
 .organizer-card {
     flex: 1;
     margin: 10px;
@@ -113,43 +100,33 @@ nav ul #joinus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .organizer-card img {
     max-width: 100%;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-
 .organizer-card h3 {
     margin-bottom: 10px;
     font-size: 1.5em;
     color: #4A51D9;
 }
-
 .organizer-card p {
     color: #666;
 }
-
 /* 작은 화면(예: 태블릿 또는 모바일 기기)에 대한 미디어 쿼리 추가 */
 @media (max-width: 600px) {
     section {
         width: calc(100% - 40px) outo;
         margin: 20px; /* 섹션 간 간격 조절 및 중앙 정렬 */
     }
-
     #organizers {
         flex-direction: column;
         align-items: center;
     }
-
     .organizer-card {
         max-width: 100%;
     }
 }
-
-
-
-
 footer {
     background-color: #0D0D0D;
     color: white;

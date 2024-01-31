@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로그래밍 동아리</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="joinStyles.css">
 </head>
 
 <body>
@@ -18,15 +19,20 @@
             <li><a href="./#about">소개</a></li>
             <li><a href="./#organizers">운영진</a></li>
             <li><a href="./#contact">문의</a></li>
-            <li id="joinus"><a href="./join.html">JOIN US!</a></li>
+            <li id="joinus"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCwu0Xmj0e8cqeFshjdstcclrp2_KdLR4My1jOwUXuyTPmPw/viewform?usp=sharing">JOIN US!</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <h2 id = "head">환영합니다!</h2>
-        <p id = "text">캐릭터 & 오브젝트 동아리에 오신 것을 환영합니다.</p>
+        <p id = "text">캐릭터 동아리에 오신 것을 환영합니다.</p>
         <h3>신청 기간 : 2월 19일부터 3월 3일까지<br>
             면접 일정 : 2월 26일부터 3월 6일까지</h3>
+
+            <button class="rounded-box content" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfCwu0Xmj0e8cqeFshjdstcclrp2_KdLR4My1jOwUXuyTPmPw/viewform?usp=sharing'">
+                <h2>지원하러 가기→</h2>
+            </button>
+
     </section>
 
     <section id="about">
@@ -35,27 +41,38 @@
         <h3>캐릭터</h3>
         <p id = "text">캐릭터는 기본반과 스터디반으로 나눠집니다</p>
         <p id = "text">기본반에서는 C언어에 대해 수업을 진행하며 이는 프로그래밍을 처음 접하시는 분들에게 추천드립니다.</p>
-        <p id = "text">심화반에서는 자료구조를 C언어로 구현하며 자료구조에 대한 학습을 진행합니다.</p>
-        <h3>오브젝트</h3>
-        <p id = "text">오브젝트는 프로젝트를 진행합니다.</p>
-        <p id = "text">프로젝트를 진행하며 필요한 지식들을 학습하고 하나의 프로젝트를 완성하는 것을 목표로 하고 있습니다</p>
+        <p id = "text">심화반에서는 자료구조를 C언어로 구현하며 자료구조에 대한 학습을 진행합니다.<br> 또한 코딩테스트를 대비해서 코딩테스트 문제를 풀고 있습니다.</p>
+        
     </section>
 
     <section id="organizers">
         <h2 id = "head">운영진</h2>
-        <h3>캐릭터</h3>
+        <h3>회장</h3>
         <div class="organizer-card">
-            <img src="./images/avatartion (1).png" alt="Organizer 1">
+            <img src="./images/bear.jpg" alt="Organizer 1">
             <h3>원찬혁</h3>
-            <p id = "text">풍부한 프로그래밍 경험을 가진 캐릭터 동아리의 운영진입니다.</p>
+            <p id = "text">다양한 코딩 테스트 문제를 풀어본 경험을 가지고 있는 동아리 회장입니다.</p>
         </div>
 
-        <h3>오브젝트</h3>
+        <h3>부회장</h3>
         <div class="organizer-card">
-            <img src="./images/avatartion.png" alt="Organizer 2">
-            <h3>강주철</h3>
-            <p id = "text">다양한 프로젝트 경험을 가진 오브젝트 동아리의 운영진입니다.</p>
+            <img src="./images/cat.jpg" alt="Organizer 2">
+            <h3>권은서</h3>
+            <p id = "text">c, python, java 등 다양한 언어를 사용할 수 있는 동아리 부회장입니다.</p>
         </div>
+
+        <!-- <h3>운영진</h3>
+        <div class="organizer-card">
+            <img src="./images/avatartion.png" alt="Organizer 3">
+            <h3>강주철</h3>
+            <p id = "text">다양한 코딩 경험을 가진 동아리의 운영진입니다.</p>
+        </div>
+
+        <div class="organizer-card">
+            <img src="./images/bear.jpg" alt="Organizer 4">
+            <h3>조혜원</h3>
+            <p id = "text">다양한 코딩 경험을 가진 동아리의 운영진입니다.</p>
+        </div> -->
         
     </section>
 
@@ -68,7 +85,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 C&O 동아리</p>
+        <p>&copy; 2024 캐릭터 동아리</p>
     </footer>
 
     <script src="script.js"></script>
